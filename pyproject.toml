@@ -1,0 +1,21 @@
+[project]
+name = "ai-platform"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "celery>=5.6.3",
+    "django>=6.0.6",
+    "django-cors-headers>=4.9.0",
+    "djangorestframework>=3.17.1",
+    "djangorestframework-simplejwt>=5.5.1",
+    "fakeredis>=2.36.2",
+    "gunicorn>=26.0.0",
+    "kafka-python>=3.0.7",
+    "pillow>=12.2.0",
+    "psycopg2-binary>=2.9.12",
+    "python-dotenv>=1.2.2",
+    "redis>=8.0.1",
+    "requests>=2.34.2",
+]
